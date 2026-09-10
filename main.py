@@ -24,7 +24,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 load_dotenv()
 
-TOKEN = os.getenv("", "")
+TOKEN = os.getenv("BOT_TOKEN", "").strip()
 
 ADMIN_ID = 7411827400
 
